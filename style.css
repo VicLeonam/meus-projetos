@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "pixel";
+  src: url('fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+body {
+  background-image: url('images/wall.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+main{
+  background-color: #F2D0BD;
+  box-shadow: 10px 9px 10px 5px #260F26;
+  border-radius: 20px;
+  width: 625px;
+  padding: 10px;
+  margin: auto;
+}
+h1{
+  background-color: #260F26;
+  border-radius: 7px;
+  padding: 6px;
+  color: #BF2A45;
+  font-family: 'pixel',Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 20px;
+  font-family: 'pixel', Arial, Helvetica, sans-serif;
+  color: #59023B;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div{
+  font-size: 20px;
+  font-family: 'pixel', Arial, Helvetica, sans-serif;
+  color: #59023B;
+  text-align: center;
+}
+ul{font-size: 20px;
+  font-family: 'pixel', Arial, Helvetica, sans-serif;
+  color: #59023B;
+  }
+  ol{
+    font-size: 20px;
+  font-family: 'pixel', Arial, Helvetica, sans-serif;
+  color: #59023B;
+  }
+  table{
+    font-size: 20px;
+  font-family: 'pixel', Arial, Helvetica, sans-serif;
+  color: #59023B;
+  }
