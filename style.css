@@ -1,8 +1,13 @@
 @charset "utf-8";
 
-@font-face {
-  font-family: "pixel";
-  src: url('fonts/PixelifySans-VariableFont_wght.ttf');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --cor1: #F2D0BD;
+  --cor2: #F2F2F2;
+  --cor3: #332F40;
+  --cor4: black;
 }
 
 body {
@@ -10,49 +15,66 @@ body {
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
+  display: block;
+
 }
+
+
 main{
-  background-color: #F2D0BD;
-  box-shadow: 10px 9px 10px 5px #260F26;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  box-shadow: 1px 1px 40px 9px rgba(255,255,255, 0.5);
   border-radius: 20px;
-  width: 625px;
+  min-width: 320px;
+  max-width: 800px;
   padding: 10px;
   margin: auto;
 }
 h1{
-  background-color: #260F26;
+  text-align: center;
+  background-color: var(--cor2);
   border-radius: 7px;
   padding: 6px;
-  color: #BF2A45;
+  color: var(--cor3);
   font-family: 'pixel',Arial, Helvetica, sans-serif;
 }
 p{
   font-size: 20px;
-  font-family: 'pixel', Arial, Helvetica, sans-serif;
-  color: #59023B;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
 }
-img{
+b{
+  color: purple;
+  text-decoration: underline;
+}
+img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
+
+
 div{
   font-size: 20px;
   font-family: 'pixel', Arial, Helvetica, sans-serif;
-  color: #59023B;
+  color: var(--cor4);
   text-align: center;
 }
 ul{font-size: 20px;
   font-family: 'pixel', Arial, Helvetica, sans-serif;
-  color: #59023B;
+  color: var(--cor4);
   }
   ol{
     font-size: 20px;
   font-family: 'pixel', Arial, Helvetica, sans-serif;
-  color: #59023B;
+  color: var(--cor4);
   }
   table{
     font-size: 20px;
   font-family: 'pixel', Arial, Helvetica, sans-serif;
-  color: #59023B;
+  color: var(--cor4);
+  background-color: #F2D0BD;
   }
+  
